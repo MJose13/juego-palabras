@@ -1,0 +1,19 @@
+
+
+<div class="prev">
+  <a class="flecha" ng-href="#!/pato"><img src="{{flechaA}}" alt=""></a>
+</div>
+<div class="contenedor">
+  <div class="dibujo">
+    <img class="imagen" src="images/cat.png" alt="">
+  </div>
+  <div class="botones">
+    <button class="juego"type="button" name="button" ng-click="mostrarResultado(error, 'ocultar', 'mostrar')">PALO</button>
+    <button class="juego" type="button" name="button"  ng-click="mostrarResultado(acierto, 'mostrar', 'mostrar')">GATO</button>
+  </div>
+  <img class="smile resultado {{verSmile}}"src="{{resultado}}">
+</div>
+
+<div class="next">
+  <a class="flecha {{verFlecha}}" ng-href="#!/mama"><img src="{{flechaD}}" alt=""></a>
+</div>
